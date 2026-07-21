@@ -25,11 +25,30 @@ try :
 except valueError as  e :
     print(e)
 else:
-    print("done")'''''
+    print("done")
 
 #to throw error
 a =int(input("enter a number:"))
 if a<0:
     raise ValueError("number i negative")
 else:
-    print(a)
+    print(a)'''''
+#TASK1:##keep asking valid integer number
+##if not valid integer number ,print error
+while True:
+    try:
+        a=int(input("enter a number:"))
+        print(a)
+    except ValueError as e:
+        print(e)
+    else:
+        print("done")
+        break
+
+#task2
+#handle index error while accessing list,elements if it is out of range module it
+L=[0,1,2,3,4,5,6,7,8,9,10]
+try:
+    print(L[10])
+except IndexError as e:
+    print(e)

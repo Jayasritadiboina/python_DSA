@@ -27,8 +27,11 @@ print(x)
 while True:
     print("hi")'''
 #take a num as input and find the sum of num from 1 to that number
-x=int(input("enter number:"))
+''''x=int(input("enter number:"))
 sum =0
 for i in range(sum,x+1):
     sum += i
-    print("sum=",sum)
+    print("sum=",sum)''''
+
+
+
